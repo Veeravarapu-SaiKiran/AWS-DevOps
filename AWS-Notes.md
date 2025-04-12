@@ -47,8 +47,16 @@ Setting up physical servers involves:
 ## 🛠️ Service Models in Cloud Computing
 
 1. **Software as a Service (SaaS)**
-2. **Platform as a Service (PaaS)**
+   Every thing will be provided by cloud provider, you just need to use application. Starting from Servers,Storage,Network,Virtualization,OS,Middleware,Runtime,Data,Applications
+   **Example:** AWS LightSail, Gmail(google provides gmail application)
+2. **Platform as a Service (PaaS) **
+   Cloud Provider will give us platform to run our applications.
+   **Example:**
+   AWS Beanstalk: It provides you the platform to run your application. example you want to create a website which is 
+   (Server -> OS -> Install word press -> server creation -> public ip assign ->) upload code -> expose to outside world
 3. **Infrastructure as a Service (IaaS)**
+   Provides Instances
+   **Example:** Elastic compute capacity(EC2)
 
 ![Service Models](images/Service-Models.png)
 
